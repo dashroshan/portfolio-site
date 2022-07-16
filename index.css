@@ -306,6 +306,35 @@ body {
     font-size: 1.5rem;
 }
 
+.edu-wrap {
+    display: block;
+}
+
+.edu-institute {
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+
+.edu-institute a {
+    text-decoration: none;
+    color: white;
+}
+
+.edu-title {
+    color: #cdcdcd;
+    font-size: 0.9rem;
+    margin-top: 0.5rem;
+    line-height: 1.5rem;
+}
+
+.edu-date {
+    min-width: 10rem;
+}
+
+.edu-content:nth-of-type(n+2) {
+    margin-top: 2rem;
+}
+
 @media (max-width:62rem) {
     body {
         margin-top: 4rem;
