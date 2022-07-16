@@ -2,13 +2,22 @@
 
 body {
     box-sizing: border-box;
-    background-image: radial-gradient(circle farthest-side, #25272a, #15171b);
-    background-attachment: fixed;
     color: white;
     font-family: 'Ubuntu';
     margin-top: 7.5rem;
     display: flex;
     justify-content: center;
+}
+
+#background {
+    background: radial-gradient(circle farthest-side, #25272a, #15171b);
+    background-repeat: no-repeat;
+    background-position: center;
+    transform: translateY(-7.5rem);
+    height: 110vh;
+    width: 100vw;
+    position: fixed;
+    z-index: -5;
 }
 
 #body-content {
