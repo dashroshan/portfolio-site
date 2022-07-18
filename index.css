@@ -418,6 +418,10 @@ body {
         font-size: 11vw;
     }
 
+    #heading-title {
+        font-size: 11vw;
+    }
+
     .projects-wrap:nth-of-type(n) {
         padding: 2rem;
     }
